@@ -10,6 +10,11 @@ const HomeStyles = styled(motion.div)`
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         flex-wrap: wrap;
         justify-content: center;
+        a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: maroon;
+        }
     }
     .category {
         margin: 1rem;
@@ -22,11 +27,7 @@ const HomeStyles = styled(motion.div)`
         &:click {
             transform: scale(1.05);
         }
-        a {
-            text-decoration: none;
-            font-size: 1.2rem;
-            color: maroon;
-        }
+
     }
 `;
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
                 <div className="categories">
 
                     {categories.map((category, index) => (
+                        <Link to={`/menu/${category}`}>
                         <motion.div 
                             className="category" 
                             key={index}
@@ -46,10 +48,9 @@ const Home = () => {
                             whileInView={{ opacity: 1, x: 0}}
                             exit={{ opacity: 0, x: function() { return index % 2 === 0 ? -100 : 100 }()}}
                         >
-                            <Link to={`/menu/${category}`}>
                                 <h3>{category}</h3>
-                            </Link>
                         </motion.div>
+                        </Link>
                     ))}
                 </div>
             </div>
