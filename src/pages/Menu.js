@@ -10,6 +10,7 @@ const MenuStyles = styled(motion.div)`
     align-items: center;
     justify-content: center;
     font-family:'Lora', serif;
+    font-style: italic;
     @media (min-width: 768px) {
         width: 50%;
     }
@@ -47,7 +48,7 @@ const Menu = () => {
                     className='item' 
                     initial={{ opacity: 0, x: -100}}
                     animate={{ opacity: 1 , x: 0}}
-                    transition={{ delay: 0.2}}
+                    transition={{ delay: 0.1 + index * 0.05}}
                     exit={{ opacity: 0 , x:100}}
                     key={index}>
                         <div className='item-name'>{item.dish}</div>
