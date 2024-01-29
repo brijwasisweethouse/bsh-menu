@@ -1,0 +1,429 @@
+{
+    "South Indian": [
+        {
+            "dish":"Plain Dosa",
+            "price": 120
+        },
+        {
+            "dish":"Masala Dosa",
+            "price": 140
+        },
+        {
+            "dish":"Spl Masala Dosa",
+            "price": 170
+        },
+        {
+            "dish":"Spl Rawa Dosa",
+            "price": 190
+        },
+        {
+            "dish":"Paper Masala Dosa",
+            "price": 240
+        },
+        {
+            "dish":"Paneer Masala Dosa",
+            "price": 170
+        },
+        {
+            "dish":"Veg Uttapam",
+            "price": 160
+        }
+    ],
+    "Punjabi":
+    [
+        {
+            "dish":"Chole Kulche",
+            "price": 150
+        },
+        {
+            "dish":"Chola Bhature",
+            "price": 160
+        },
+        {
+            "dish":"Special Chola Bhature",
+            "price": 180
+        },
+        {
+            "dish":"Chole Rice",
+            "price": 150
+        },
+        {
+            "dish":"Aloo Parantha with Curd",
+            "price": 150
+        },
+        {
+            "dish":"Paneer Parantha with Curd",
+            "price": 180
+        },
+        {
+            "dish":"Mix Veg Parantha with Curd",
+            "price": 170
+        },
+        {
+            "dish":"Aloo Pyaaz Parantha with Curd",
+            "price": 170
+        },
+        {
+            "dish":"Onion Parantha with Curd",
+            "price": 150
+        },
+        {
+            "dish":"Extra Chole",
+            "price": 100
+        },
+        {
+            "dish":"Extra Bhature",
+            "price": 50
+        }
+    ],
+    "Main Course": [
+        {
+            "dish":"Paneer Butter Masala",
+            "price": 260
+        },
+        {
+            "dish":"Dal Makhani",
+            "price": 240
+        },
+        {
+            "dish":"Dal Fry",
+            "price": 210
+        },
+        {
+            "dish":"Chana Masala",
+            "price": 200
+        },
+        {
+            "dish":"Dum Aloo",
+            "price": 240
+        },
+        {
+            "dish":"Kashmiri Dum Aloo",
+            "price": 320
+        },
+        {
+            "dish":"Zeera Aloo",
+            "price": 180
+        },
+        {
+            "dish":"Kadai Paneer",
+            "price": 260
+        },
+        {
+            "dish":"Khoya Paneer",
+            "price": 280
+        },
+        {
+            "dish":"Mutter Paneer",
+            "price": 240
+        },
+        {
+            "dish":"Malai Methi Paneer",
+            "price": 260
+        },
+        {
+            "dish":"Shahi Paneer",
+            "price": 240
+        },
+        {
+            "dish":"Paneer Akbari",
+            "price": 320
+        },
+        {
+            "dish":"Veg. Jaipuria",
+            "price": 350
+        },
+        {
+            "dish":"Kaju Curry",
+            "price": 360
+        },
+        {
+            "dish":"Mix Veg",
+            "price": 260
+        },
+        {
+            "dish":"Malai Kofta",
+            "price": 260
+        },
+        {
+            "dish":"Kashmiri Malai Kofta",
+            "price": 320
+        },
+        {
+            "dish":"Veg. Navratan Korma",
+            "price": 350
+        },
+        {
+            "dish":"Mushroom Mutter",
+            "price": 260
+        }
+    ],
+    "Chinese":
+    [
+        {
+            "dish":"Veg. Manchurian",
+            "price": 180
+        },
+        {
+            "dish":"Veg. Fried Rice",
+            "price": 150
+        },
+        {
+            "dish":"Veg. Noodles",
+            "price": 150
+        },
+        {
+            "dish":"Veg. Paneer Noodles",
+            "price": 170
+        },
+        {
+            "dish":"Chilli Paneer",
+            "price": 250
+        },
+        {
+            "dish":"Chilli Garlic Noodles",
+            "price": 160
+        }
+    ],
+    "Raita":[
+        {
+            "dish":"Plain Curd",
+            "price": 100
+        },
+        {
+            "dish":"Boondi Raita",
+            "price": 120
+        },
+        {
+            "dish":"Mix Veg Raita",
+            "price": 130
+        },
+        {
+            "dish":"Aloo Raita",
+            "price": 120 
+        },
+        {
+            "dish":"Jeera Raita",
+            "price": 120
+        },
+        {
+            "dish":"Kashmiri Raita",
+            "price": 160
+        }
+    ],
+    "Desserts":
+    [
+        {
+            "dish":"Gulab Jamun",
+            "price": 80
+        },
+        {
+            "dish":"Rasmalai",
+            "price": 80
+        },
+        {
+            "dish":"Rabdi",
+            "price": 65
+        },
+        {
+            "dish":"Sponge Rasgulla",
+            "price": 60
+        },
+        {
+            "dish":"Pakiza",
+            "price": 80
+        },
+        {
+            "dish":"Gajar Halwa (seasonal)",
+            "price": 80
+        },
+        {
+            "dish":"Moong Dal Halwa (seasonal)",
+            "price": 80
+        }
+    ],
+    "Lassi":
+    [
+        {
+            "dish":"Salted Lassi",
+            "price": 75
+        },
+        {
+            "dish":"Meethi Lassi",
+            "price": 75
+        },
+        {
+            "dish":"Rabdi Lassi",
+            "price": 120
+        },
+        {
+            "dish":"Kesar Lassi",
+            "price": 120
+        },
+        {
+            "dish":"Mewa Lassi",
+            "price": 120
+        }
+    ],
+    "Beverages":
+    [
+        {
+            "dish":"Regular Tea",
+            "price": 50
+        },
+        {
+            "dish":"Elaichi Tea",
+            "price": 60
+        },
+        {
+            "dish":"Green Tea",
+            "price": 50
+        },
+        {
+            "dish":"Black Tea",
+            "price": 50
+        },
+        {
+            "dish":"Ginger Tea",
+            "price": 60
+        },
+        {
+            "dish":"Coffee",
+            "price": 80
+        },
+        {
+            "dish":"Cold Coffee",
+            "price": 160
+        },
+        {
+            "dish":"Aerated Drink",
+            "price": 80
+        },
+        {
+            "dish":"Mineral Water",
+            "price": "ON MRP"
+        },
+        {
+            "dish":"Lemonade",
+            "price": 89
+        },
+        {
+            "dish":"Mango Shake",
+            "price": 100
+        },
+        {
+            "dish":"Banana Shake",
+            "price": 100
+        },
+        {
+            "dish":"Kesar Badam Milk",
+            "price": 85
+        }
+        
+    ]
+    ,
+    "Breads":
+    [
+        {
+            "dish":"Plain Roti",
+            "price": 20
+        },
+        {
+            "dish":"Butter Roti",
+            "price": 30
+        },
+        {
+            "dish":"Besan",
+            "price": 35
+        },
+        {
+            "dish":"Plain Naan",
+            "price": 50
+        },
+        {
+            "dish":"Butter Naan",
+            "price": 60
+        },
+        {
+            "dish":"Panner Naan",
+            "price": 100
+        },
+        {
+            "dish":"Stuff Naan",
+            "price": 90
+        },
+        {
+            "dish":"Tandoori Parantha",
+            "price": 50
+        },
+        {
+            "dish":"Lachcha Parantha",
+            "price": 35
+        }
+    ],
+    "Snacks":
+    [
+        {
+            "dish":"Veg Cutlet",
+            "price": 160
+        },
+        {
+            "dish":"Paneer Pakoda",
+            "price": 180
+        },
+        {
+            "dish":"Assorted Pakoda",
+            "price": 160
+        },
+        {
+            "dish":"French Fries",
+            "price": 130
+        },
+        {
+            "dish":"Peri Peri Fries",
+            "price": 150
+        },
+        {
+            "dish":"Onion Pakoda",
+            "price": 150
+        },
+        {
+            "dish":"Papad Dry",
+            "price": 20
+        },
+        {
+            "dish":"Papad Fry",
+            "price": 25
+        },
+        {
+            "dish":"Masala Papad",
+            "price": 70
+        }
+    ],
+    "Rice":[
+        {
+            "dish":"Veg. Pullao",
+            "price": 170
+        },
+        {
+            "dish":"Mutter Pullao",
+            "price": 170
+        },
+        {
+            "dish":"Jeera Rice",
+            "price": 130
+        },
+        {
+            "dish":"Paneer Pullao",
+            "price": 180
+        },
+        {
+            "dish":"Veg. Kashmiri Pullao",
+            "price": 220
+        },
+        {
+            "dish":"Plain Rice",
+            "price": 120
+        }
+    ]
+}
