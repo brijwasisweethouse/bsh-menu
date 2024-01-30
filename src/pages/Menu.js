@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import menu from '../data/menu.json';
 import { styled } from 'styled-components';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const MenuStyles = styled(motion.div)`
     padding: 2rem;
@@ -66,14 +66,14 @@ const Menu = () => {
                 </motion.div>
             ))}
         </div>
-        <div className='back'>
-            <motion.a 
-                href='/'
-                initial={{ opacity: 0, x: -100}}
-                animate={{ opacity: 1 , x: 0}}
-                transition={{ delay: 0.2}}
-                exit={{ opacity: 0 , x:100}}
-            >
+        <motion.div className='back'
+            initial={{ opacity: 0, x: -100}}
+            animate={{ opacity: 1 , x: 0}}
+            transition={{ delay: 0.2}}
+            exit={{ opacity: 0 , x:100}}
+        >
+            <Link to='/'>
+
                 {/* Home icon */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="wheat" viewBox="0 0 24 24">
                     <path d="M0 0h24v24H0z" fill="none"/>
@@ -83,8 +83,8 @@ const Menu = () => {
                         15v-6h-6v6h6z"
                     />
                 </svg>
-            </motion.a>
-        </div>
+                </Link> 
+        </motion.div>
         </MenuStyles>
     )
 };
