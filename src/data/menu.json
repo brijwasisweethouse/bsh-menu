@@ -91,7 +91,7 @@
         },
         {
             "dish":"Chana Masala",
-            "price": 200
+            "price": 220
         },
         {
             "dish":"Dum Aloo",
@@ -123,7 +123,7 @@
         },
         {
             "dish":"Shahi Paneer",
-            "price": 240
+            "price": 260
         },
         {
             "dish":"Paneer Akbari",
@@ -155,7 +155,7 @@
         },
         {
             "dish":"Mushroom Mutter",
-            "price": 260
+            "price": 280
         }
     ],
     "Chinese":
