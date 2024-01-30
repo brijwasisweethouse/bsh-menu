@@ -1,8 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-<a href="https://www.freepik.com/free-vector/brown-mandala-pattern-background_1183921.htm#fromView=search&term=brown+traditional&track=ais&regularType=vector&page=1&position=52&uuid=5a1bb86f-b9e2-491a-ab87-707731b57f1b">Image by Kerfin7</a> on Freepik
-## Available Scripts
+```
+git add .
+git commit -am "update"
+git push origin main
+npm run deploy
+```
+
+##
 
 In the project directory, you can run:
 
