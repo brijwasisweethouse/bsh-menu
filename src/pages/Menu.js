@@ -36,6 +36,16 @@ const MenuStyles = styled(motion.div)`
             text-align: right;
         }
     }
+    .back{
+        text-align: center;
+        margin-top: 2rem;
+        a {
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: wheat;
+        }
+    }
 `;
 const Menu = () => {
     const {category} = useParams();
@@ -55,6 +65,25 @@ const Menu = () => {
                         <div className='item-price'>&#8377;{item.price}</div>
                 </motion.div>
             ))}
+        </div>
+        <div className='back'>
+            <motion.a 
+                href='/'
+                initial={{ opacity: 0, x: -100}}
+                animate={{ opacity: 1 , x: 0}}
+                transition={{ delay: 0.2}}
+                exit={{ opacity: 0 , x:100}}
+            >
+                {/* Home icon */}
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="wheat" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path 
+                        fill="wheat" 
+                        d="M12 2L2 12h3v8h6v-6h4v6h6v-8h3L12 2zm3 
+                        15v-6h-6v6h6z"
+                    />
+                </svg>
+            </motion.a>
         </div>
         </MenuStyles>
     )
