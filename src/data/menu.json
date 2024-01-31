@@ -76,6 +76,19 @@
             "price": 50
         }
     ],
+    "Thali":[
+        {
+            "dish":"Thali",
+            "description": "Dal Fry, 1 Paneer, 1 Seasonal Veg, Boodi Raita, Zeera Rice, Papad, Pickle, Salad, 1 Besan Roti, 1 Butter Naan, 1 Butter Roti",
+            "price": 299
+        },
+        {
+            "dish":"Special Thali",
+            "description":"Dal Makhni, Shahi Paneer, Chana Masala, Boondi Raita, Pullao, 1 Lachcha Parantha, 1 Stuffed Naan, 1 Butter Roti, Papad, Pickle, Salad, Sweet",
+            "price": 379
+        }
+    ]
+    ,
     "Main Course": [
         {
             "dish":"Paneer Butter Masala",
@@ -143,11 +156,11 @@
         },
         {
             "dish":"Malai Kofta",
-            "price": 260
+            "price": 320
         },
         {
             "dish":"Kashmiri Malai Kofta",
-            "price": 320
+            "price": 380
         },
         {
             "dish":"Veg. Navratan Korma",

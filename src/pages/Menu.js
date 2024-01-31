@@ -11,6 +11,12 @@ const MenuStyles = styled(motion.div)`
     justify-content: center;
     font-family:'Lora', serif;
     font-style: italic;
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
     @media (min-width: 768px) {
         width: 50%;
     }
@@ -35,6 +41,11 @@ const MenuStyles = styled(motion.div)`
             font-weight: 600;
             text-align: right;
         }
+        &-description {
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: left;
+        }
     }
     .back{
         text-align: center;
@@ -52,6 +63,12 @@ const Menu = () => {
     const items = menu[category];
     return (
         <MenuStyles>
+        <motion.h2
+            initial={{ opacity: 0, x: -100}}
+            animate={{ opacity: 1 , x: 0}}
+            transition={{ delay: 0.1}}
+            exit={{ opacity: 0 , x:100}}
+        >{category}</motion.h2>
         <div className='items'>
             {items.map((item, index) => (
                 <motion.div 
@@ -63,7 +80,9 @@ const Menu = () => {
                     key={index}>
                         <div className='item-name'>{item.dish}</div>
                         <div className='item-price'>&#8377;{item.price}</div>
+                        <div className='item-description'>{item.description}</div>
                 </motion.div>
+
             ))}
         </div>
         <motion.div className='back'
