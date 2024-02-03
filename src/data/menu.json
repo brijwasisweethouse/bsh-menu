@@ -194,6 +194,10 @@
             "price": 250
         },
         {
+            "dish":"Chilli Mushroom",
+            "price":270
+        },
+        {
             "dish":"Chilli Garlic Noodles",
             "price": 160
         }
