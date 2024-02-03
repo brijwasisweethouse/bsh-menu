@@ -168,7 +168,7 @@
         },
         {
             "dish":"Mushroom Mutter",
-            "price": 280
+            "price": 350
         }
     ],
     "Chinese":
@@ -362,6 +362,10 @@
             "price": 100
         },
         {
+            "dish":"Garlic Naan",
+            "price": 90
+        },
+        {
             "dish":"Stuff Naan",
             "price": 90
         },
@@ -371,7 +375,7 @@
         },
         {
             "dish":"Lachcha Parantha",
-            "price": 35
+            "price": 70
         }
     ],
     "Snacks":
