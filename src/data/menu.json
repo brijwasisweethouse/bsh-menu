@@ -317,6 +317,10 @@
             "price": 80
         },
         {
+            "dish":"Non Achoholic Beer",
+            "price": 120
+        },
+        {
             "dish":"Mineral Water",
             "price": "ON MRP"
         },
