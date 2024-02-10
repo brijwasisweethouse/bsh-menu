@@ -242,32 +242,40 @@
     "Desserts":
     [
         {
-            "dish":"Gulab Jamun",
+            "dish":"Gulab Jamun (2 pc)",
             "price": 80
         },
         {
-            "dish":"Rasmalai",
+            "dish":"Kala Jamun (2 pc)",
+            "price": 100
+        },
+        {
+            "dish":"Rasmalai (2 pc)",
             "price": 80
         },
         {
-            "dish":"Rabdi",
-            "price": 65
+            "dish":"Rabdi (100 gms)",
+            "price": 70
         },
         {
-            "dish":"Sponge Rasgulla",
+            "dish":"Sponge Rasgulla (2 pc)",
             "price": 60
         },
         {
-            "dish":"Pakiza",
+            "dish":"Pakiza (2 pc)",
             "price": 80
         },
         {
-            "dish":"Gajar Halwa (seasonal)",
+            "dish":"Gajar Halwa (100 gms, seasonal)",
             "price": 80
         },
         {
-            "dish":"Moong Dal Halwa (seasonal)",
+            "dish":"Moong Dal Halwa (100 gms, seasonal)",
             "price": 80
+        },
+        {
+            "dish":"Kaju Barfi (100 gms)",
+            "price": 120
         }
     ],
     "Lassi":
@@ -434,6 +442,10 @@
         {
             "dish":"Masala Papad",
             "price": 70
+        },
+        {
+            "dish":"Masala Kaju (100 gms)",
+            "price": 180
         }
     ],
     "Rice":[
