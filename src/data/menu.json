@@ -5,12 +5,12 @@
             "price": 120
         },
         {
-            "dish":"Masala Dosa",
-            "price": 140
+            "dish":"Ghee Masala Dosa",
+            "price": 160
         },
         {
             "dish":"Spl Masala Dosa",
-            "price": 170
+            "price": 190
         },
         {
             "dish":"Spl Rawa Dosa",
@@ -22,7 +22,7 @@
         },
         {
             "dish":"Paneer Masala Dosa",
-            "price": 170
+            "price": 180
         },
         {
             "dish":"Veg Uttapam",
@@ -169,6 +169,17 @@
         {
             "dish":"Mushroom Mutter",
             "price": 350
+        }
+    ],
+    "Salads":
+    [
+        {
+            "dish":"Green Salad",
+            "price": 80
+        },
+        {
+            "dish":"Onion Salad",
+            "price": 50
         }
     ],
     "Chinese":
