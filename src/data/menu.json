@@ -92,7 +92,7 @@
     "Main Course": [
         {
             "dish":"Paneer Butter Masala",
-            "price": 260
+            "price": 290
         },
         {
             "dish":"Dal Makhani",
@@ -120,19 +120,19 @@
         },
         {
             "dish":"Kadai Paneer",
-            "price": 260
+            "price": 290
         },
         {
             "dish":"Khoya Paneer",
-            "price": 280
+            "price": 320
         },
         {
             "dish":"Mutter Paneer",
-            "price": 240
+            "price": 260
         },
         {
             "dish":"Malai Methi Paneer",
-            "price": 260
+            "price": 340
         },
         {
             "dish":"Shahi Paneer",
